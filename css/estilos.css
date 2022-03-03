@@ -12,7 +12,7 @@ PEC2
 
 /*
 Paleta de colores:
- #000078 AZUL OSCURO;
+ #000042 AZUL OSCURO;
  #73EDFF AZUL CLARO;
  #FFE000 AMARILLO;
  #D0D0D0 GRIS OSCURO;
@@ -24,7 +24,7 @@ body{
 	margin: 0;
 	padding: 0;
     font-family: 'Lato', sans-serif;
-    color:#000078;
+    color:#000042;
 }
 
 /* Clase para forzar que los float tenga una altura suficiente */
@@ -46,7 +46,7 @@ hover en los enlaces y que no deforme los tamaños*/
 a{
 	text-decoration: none;
 	box-sizing: border-box;
-	color:#000078;
+	color:#000042;
 }
 
 /* enlaces e input type submit para que tengan forma de botón: 
@@ -63,7 +63,7 @@ a.boton, input.boton{
 a.boton:hover,input.boton:hover{
 	background: #73EDFF;
 }
-a:hover{color:#222;}
+a:hover{color:black}
 
 
 /******************** 
@@ -144,7 +144,7 @@ nav ul li a:hover, .actual{border-bottom: solid 3px #FFE000;}
 /* damos un ancho del 50% para dividir en dos columnas, y añadimos el color de la fuente.*/
 .inicioDestacado div, .inicioDestacado iframe{
 	width: 50%; 
-	color:#000078 
+	color:#000042 
 }
 
 /* Cambiamos el estilo del h1 para que se asimile a un párrafo, 
@@ -175,7 +175,7 @@ Texto alineado al centro, color de la fuente, fondo gris y
 los espacios internos y márgenes de la caja.*/
 .inicioCifras{
 	text-align: center;
-	color:#000078;
+	color:#000042;
 	background: #F0F0F0;
 	padding-top: 50px;
 	margin-top: 40px;
@@ -212,7 +212,7 @@ Las cifras tiene el tamaño del .inicioCifrasColumnas div*/
 /* Definimos característica principal a esta sección el color de la fuente.*/
 
 .inicioObjetivos{
-	color:#000078;
+	color:#000042;
 }
 
 
@@ -267,6 +267,10 @@ form{
 	margin: 0 auto;
 }
 
+label{
+	color: #000042;
+}
+
 /* Editamos los input y select de nuestro formulario:
 Disposición en bloque, ancho 100%, quitamos el borde predeterminado
 y le añadimos el borde inferior*/
@@ -279,7 +283,7 @@ y le añadimos el borde inferior*/
 	margin:2px 0px 30px 0px;
 	width: 100%;
 	border: 0;
-	border-bottom: solid 1px #000078;
+	border-bottom: solid 1px #000042;
 }
 /* Damos espacio interno a los input que se visualizan con una caja.*/
 .publicar form input[type="text"],
@@ -292,19 +296,19 @@ y le añadimos el borde inferior*/
 
 /* Añadimos color a los placeholder en todos los navegadores*/
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color:#000;
+  color:black;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  color:#000;
+  color:black;
 }
 :-ms-input-placeholder { /* IE 10+ */
-  color:#000;
+  color:black;
 }
 :-moz-placeholder { /* Firefox 18- */
-  color:#000;
+  color:black;
 }
 ::placeholder{
-  color:#000;
+  color:black;
 }
 
 /* Los radio los agrupamos en un div con disposicion en linea y con un ancho 100%*/
@@ -319,7 +323,7 @@ y le damos un alto predeterminado.*/
 textarea{
 	width: 100%;
 	margin-bottom: 20px;
-	border:solid 1px #000078;
+	border:solid 1px #000042;
 	height: 150px;
 	resize: none;
 }
@@ -336,7 +340,7 @@ Utilizamos las propiedads anteriores y
 quitamos estilos que viene predeterminados con el input*/
 .publicar form input.boton{
 	border:0;
-	color:#000078;
+	color:#000042;
 	width: 150px;
 	cursor: pointer;
 	margin-top: 20px;
@@ -379,8 +383,8 @@ td,th{
 /*Bordes a las filas*/
 tr{
 	border: none;
-	border-top: #000078 solid 2px;
-	border-bottom: #000078 solid 2px;
+	border-top: #000042 solid 2px;
+	border-bottom: #000042 solid 2px;
 }
 
 /*Coloreado par e impar a las filas del cuerpo de la tabla*/
@@ -396,7 +400,7 @@ footer{
 	margin-top: 40px;
 	padding-bottom: 30px;
 	border-top: solid 2px #73EDFF;
-	color: #000078;
+	color: #000042;
 	text-align: center;
 }
 
